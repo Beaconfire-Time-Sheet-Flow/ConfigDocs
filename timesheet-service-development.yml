@@ -1,0 +1,8 @@
+spring:
+  data:
+    mongodb:
+      #uri: mongodb+srv://localhost/?readPreference=primary&ssl=false
+      host: localhost
+      port: 27017
+      database: timesheet
+      auto-index-creation: true
